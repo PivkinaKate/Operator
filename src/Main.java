@@ -1,13 +1,14 @@
 public class Main {
     public static void main(String[] args) {
+        
 
 
-        int x = 453;
-        int y = 1200;
-        if (y > 1000) {
-            System.out.println(y + y / 100 + x);
+        int balans = 453;
+        int topUp = 1200;
+        if (topUp > 1000) {
+            System.out.println(topUp + topUp / 100 + balans);
         } else {
-            System.out.println(y + x);
+            System.out.println(topUp + balans);
         }
 
 
